@@ -1,5 +1,5 @@
 <html>
-<title> Hamuj Technology </title>
+<title> Xpress </title>
 <link rel="icon" href="images/hamujtech.jpg">
 <head>
   <meta charset="utf-8">
@@ -26,6 +26,63 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
+
+
+
+.formtwo {
+  outline: 0;
+  float: left;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.formtwo > .textbox {
+  outline: 0;
+  height: 42px;
+  width: 244px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;
+  border: 0;
+  float: left;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.formtwo > .textbox:focus {
+  outline: 0;
+  background-color: #FFF;
+}
+
+.formtwo > .button {
+  outline: 0;
+  background: none;
+  background-color: rgba(38, 50, 56, 0.8);
+  float: left;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  line-height: 42px;
+  border: 0;
+  color: #FFF;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 16px;
+  text-rendering: auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background-color .4s ease;
+  transition: background-color .4s ease;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.formtwo > .button:hover {
+  background-color: rgba(0, 150, 136, 0.8);
+}
+
+
  
 .wrapper {
   display: table;
@@ -469,6 +526,96 @@ header button:hover, button:active {
   color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.pg-footer {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query For different screens */
+@media (min-width:320px) and (max-width:479px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:480px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:600px) and (max-width: 800px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+}
+
+
+
+
+@media (min-width: 760px) {
+  .footer-content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 450px;
+      position: relative;
+  }
+
+  .footer-wave-svg {
+      height: 50px;
+  }
+
+  .footer-content-column {
+      width: 24.99%;
+  }
+}
+@media (min-width: 568px) {
+  /* .footer-content-column {
+      width: 49.99%;
+  } */
+}
+
+  
+  
 @media screen and (max-width: 676px) {
   .header-text {
     width: 95%;
@@ -525,7 +672,10 @@ header button:hover, button:active {
    
 <!--Navigation Bar-->
   <div class="logo">
-    <h3 style="color: #29587d; font-weight: bold;"> <img src="images/hamujtech.jpg" style="width: 40px; height: 40px; margin-top: 2px;"> Hamuj Technology</h3>
+    <h3 style="color: #29587d; font-weight: bold;"> <form class="formtwo" method="post" style="margin-top: 10px;">
+  <input type="text" class="textbox" placeholder="Search">
+  <input title="Search" value="" type="submit" class="button">
+</form></h3>
   </div>
    <span id="close"> <img style="width: 25px;" src="http://www.pvhc.net/img5/onbbqnqzkjrtvirmiqnp.png" alt="CLOSE"> </img> </span>
   <span id="menu"> <img style="width: 25px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11WXR-a18XfNZknL7S4lu0lLyC4aWZPY4sLd4wNHUNv9So2gd" alt="MENU"> </span>
@@ -536,9 +686,11 @@ header button:hover, button:active {
       <li> <a href="requirements.pdf"> PROCESS REQUIREMENT </a> </li>
       <li> <a href="#"> FORMS </a> </li>
       <li> <a href="payments.pdf"> E-PAYMENT </a> </li> -->
-      <li> <a href="https://www.schoolsnetwork.ng/about.php"> ABOUT US </a> </li>
+      <li> <a href="https://www.schoolsnetwork.ng/about.php"> People </a> </li>
       <!-- <li> <a href="#"> BOOK NOW </a> </li> -->
-      <li> <a href="http://hamujtechnology.com.ng/"> CONTACT US </a> </li>
+      <li> <a href="http://hamujtechnology.com.ng/"> Government </a> </li>
+      <li> <a href="http://hamujtechnology.com.ng/"> Schools </a> </li>
+      <li> <a href="http://hamujtechnology.com.ng/"> Companies </a> </li>
     </ul>
   </nav>
 <!--Navigation Bar-->
@@ -549,7 +701,7 @@ header button:hover, button:active {
     <div class="header-text">
     <h1>   <br><span id="photography">  </span></h1>
     <!-- <p> Kano State Bureau for Land Management is vested with the authority of land administration in the state. It is an offshoot of Kano provisional land office which undergoes series of transformations. In 1964. </p> -->
-    <button> BOOK NOW </button>
+    <button> Join Us!</button>
     </div>
   </header>
   <!--Hero Image-->
@@ -563,9 +715,8 @@ header button:hover, button:active {
                     
                     <div class="col-xs-12 col-sm-12">
                         <div class="card">
-                            <img src="images/jafar1.jpg" style="width:170px;height:170px;margin-right:15px; float: left; text-align: justify; "><p style="text-align: justify; margin-left: 10px; margin-right: 10px; padding-top: 10px;">e-School delivers a comprehensive platform that allows schools, universities, and small learning centers take control over multiple areas of their operations, from learning to finance administration to resource planning and management. It is a software that readily addresses varying needs of schools regardless of size, giving you the edge you need to deliver and monitor learning while remaining in control over your administrative functions.
-
-For schools and colleges with limited resources, e-School gives them the capability they need to run their establishments efficiently even without Internet connection. Modules are very user-friendly and can be handled by your staff with solid IT literacy and foundation. Desktop modules for lower-resourced schools and colleges do not demand high specs hardware and computers and a server is not necessary.</p>
+                            <img src="images/jafar1.jpg" style="width:50px;height:50px;margin-right:15px; float: left; text-align: justify; "><p style="text-align: justify; margin-left: 10px; margin-right: 10px; padding-top: 10px;">Xpress is the Voice of Nigeria in Nigeria Languages
+Join Nigeri's Best minds that speak their mind on Xpress</p>
 
                             
                             <div class="card-read-more">
@@ -573,7 +724,7 @@ For schools and colleges with limited resources, e-School gives them the capabil
  
   <!-- Button to Open the Modal -->
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Book Now
+    Join Us!
   </button>
 
   <!-- The Modal -->
@@ -583,28 +734,33 @@ For schools and colleges with limited resources, e-School gives them the capabil
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title" style="text-align: center; font-weight: bold;">eSchool Registration Form</h4>
+          <h4 class="modal-title" style="text-align: center; font-weight: bold;">Join Us Today!</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <form action="form.php" method="post" style="text-align: left; font-weight: bold;">
-          <label>Name of the School</label>
+
+          <form action="index.php" method="post" style="text-align: left; font-weight: bold;">
+            <label for="img">Select image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+          <label>Full Name</label>
           <input name="name" id="name" type="text" class="form-control">
-          <label>Location</label>
+          <label>Address</label>
           <input name="school_location" id="school_location" type="text" class="form-control">
-          <label>Name of the Principal</label>
+          <label>State</label>
           <input name="principal" id="principal" type="text" class="form-control">
           <label>Phone Number</label>
           <input name="phone" id="phone" type="number" class="form-control">
           <label>Email Address</label>
           <input name="email" id="email" type="email" class="form-control">
-          <label>Total Number of the Students</label>
-          <input name="students" id="students" type="number" class="form-control">
-          <label>Message</label>
-          <textarea name="messages" id="messages" class="form-control" placeholder="Any Message?"></textarea>
-          <input type="submit" name="submit" class="btn btn-primary" style="margin-top: 10px;">
+          <label>Password</label>
+          <input name="students" id="students" type="text" class="form-control">
+           <label>Re-type Password</label>
+          <input name="students" id="students" type="text" class="form-control">
+          <label>About you</label>
+          <textarea name="messages" id="messages" class="form-control" placeholder="About you!"></textarea>
+          <input type="submit" name="Register" class="btn btn-primary" style="margin-top: 10px;">
           </form>
         </div>
         
@@ -639,122 +795,21 @@ For schools and colleges with limited resources, e-School gives them the capabil
 
 
 
-  <footer class="footer-section" style="border-top-right-radius: 0; border-top-left-radius: 0;">
-        <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4 style="color: #ffffff;">Find us</h4>
-                                <span style="color: #ffffff;">N0 B1 Hamisu Abba Sumaila Plaza, Tarauni Market along Maiduguri Road, Kano State</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4 style="color: #ffffff;">Call us</h4>
-                                <span style="color: #ffffff;">08039150071</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4 style="color: #ffffff;">Mail us</h4>
-                                <span style="color: #ffffff;">eschool@schoolsnetwork.ng</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="images/hamujtech.jpg" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <div class="footer-text">
-                              <h3 style="color: #fff;">Our Vision</h3>
-                                <p style="color: #ffffff;">A state where every citizen has the opportunity to access and own land in a planned environment.</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3 style="color: #ffffff;">Services</h3>
-                            </div>
-                            <ul style="color: #ffffff;">
-                                <li><a style="color: #ffffff;" href="#">Application</a></li>
-                                <li><a style="color: #ffffff;" href="#">Admission</a></li>
-                                <li><a style="color: #ffffff;" href="#">Payment</a></li>
-                                <li><a style="color: #ffffff;" href="#">Result</a></li>
-                                <li><a style="color: #ffffff;" href="#">Attendance</a></li>
-                                <li><a style="color: #ffffff;" href="#">E-Laerning</a></li>
-                               <!--  <li><a href="#">SLTR</a></li>
-                                <li><a href="#">Survey</a></li>
-                                <li><a href="#">PRS</a></li>
-                                <li><a href="#">Legal</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3 style="color: #ffffff;">Subscribe</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p style="color: #ffffff;">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Design  by <a href="http://hamujtechnology.com.ng/">Hamuj Technology</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <!-- <ul>
-                                <li><a href="#">Schedule of Payment</a></li>
-                                <li><a href="requrements.pdf">Process Requirement</a></li>
-                                <li><a href="#">Forms</a></li>
-                                <li><a href="#">E-Payment</a></li> -->
-                                <li><a href="http://hamujtechnology.com.ng/">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+  
+  
+  <div class="footer" style="background:#004658; color: white; heihgt: 200px; text-align: center;">
+  <a style="color: white;" heref="http://hamujtechnology.com.ng">Design by Hamuj Technology</a>
+  </div>
+  
+  
+  
   
 </body>
+<script type="text/javascript">
+  
+</script>
+
+
 <script type="text/javascript">
   jQuery(document).ready(function() {
   jQuery("#menu").click(function () {
@@ -796,4 +851,6 @@ function showMenu () {
 
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 </html>
